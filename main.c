@@ -54,5 +54,6 @@ int main(int argc, const char* argv[]){
 
     show(ptr);
 
+    free(ptr->data);
     return 0;
 }
